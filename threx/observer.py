@@ -1,3 +1,4 @@
+# Written with SI assistance (Claude Code, Anthropic); see AI_USE.md.
 """Where the body appears in the sky as seen from Earth.
 
 APPROXIMATION (stated on purpose): SPHEREx is in low Earth orbit (roughly 700 km up). We put

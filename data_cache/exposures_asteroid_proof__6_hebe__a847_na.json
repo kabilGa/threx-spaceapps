@@ -8,5 +8,6 @@
   "spherex_dr1",
   "spherex_qr3"
  ],
- "source": "IRSA SIA2, https://irsa.ipac.caltech.edu/SIA"
+ "source": "IRSA SIA2, https://irsa.ipac.caltech.edu/SIA",
+ "si_assistance": "The cutouts and tables in this data_cache are REAL SPHEREx (NASA/IPAC IRSA) and JPL data, not SI-generated. They were fetched and processed by scripts written with SI assistance (Claude Code, Anthropic); see AI_USE.md."
 }

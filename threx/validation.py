@@ -1,3 +1,4 @@
+# Written with SI assistance (Claude Code, Anthropic); see AI_USE.md.
 """Compare our orbit code with JPL Horizons for real distant bodies (Sedna, Eris).
 
 Input of our code : the heliocentric osculating elements Horizons gives at one middle epoch.

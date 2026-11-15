@@ -1,8 +1,46 @@
-{"source": "SIMBAD astronomical database, CDS (queried via simbad.cfa.harvard.edu TAP on 2026-11-15); ICRS, epoch J2000; pmra includes cos(dec); proper motions in mas/yr",
+{
+ "source": "SIMBAD astronomical database, CDS (queried via simbad.cfa.harvard.edu TAP on 2026-11-15); ICRS, epoch J2000; pmra includes cos(dec); proper motions in mas/yr",
  "targets": {
-  "Barnard's Star": {"simbad_id": "GJ 699", "ra": 269.4520769586187, "dec": 4.693364966576667, "pmra": -801.551, "pmdec": 10362.394, "plx_mas": 546.9759},
-  "Epsilon Indi B": {"simbad_id": "* eps Ind B", "ra": 331.04414658852124, "dec": -56.782844195116105, "pmra": 3981.977, "pmdec": -2466.832, "plx_mas": 270.658},
-  "WISE 0855-0714": {"simbad_id": "WISE J085510.83-071442.5", "ra": 133.81890825, "dec": -7.247048, "pmra": -8123.7, "pmdec": 673.2, "plx_mas": 439.0},
-  "RW Aurigae": {"simbad_id": "V* RW Aur", "ra": 76.95652603458333, "dec": 30.401438173888888, "pmra": 7.23, "pmdec": -20.33, "plx_mas": 15.42},
-  "R Draconis": {"simbad_id": "V* R Dra", "ra": 248.16761083295, "dec": 66.75497941722, "pmra": -20.643, "pmdec": 6.149, "plx_mas": 1.2509}
- }}
+  "Barnard's Star": {
+   "simbad_id": "GJ 699",
+   "ra": 269.4520769586187,
+   "dec": 4.693364966576667,
+   "pmra": -801.551,
+   "pmdec": 10362.394,
+   "plx_mas": 546.9759
+  },
+  "Epsilon Indi B": {
+   "simbad_id": "* eps Ind B",
+   "ra": 331.04414658852124,
+   "dec": -56.782844195116105,
+   "pmra": 3981.977,
+   "pmdec": -2466.832,
+   "plx_mas": 270.658
+  },
+  "WISE 0855-0714": {
+   "simbad_id": "WISE J085510.83-071442.5",
+   "ra": 133.81890825,
+   "dec": -7.247048,
+   "pmra": -8123.7,
+   "pmdec": 673.2,
+   "plx_mas": 439.0
+  },
+  "RW Aurigae": {
+   "simbad_id": "V* RW Aur",
+   "ra": 76.95652603458333,
+   "dec": 30.401438173888888,
+   "pmra": 7.23,
+   "pmdec": -20.33,
+   "plx_mas": 15.42
+  },
+  "R Draconis": {
+   "simbad_id": "V* R Dra",
+   "ra": 248.16761083295,
+   "dec": 66.75497941722,
+   "pmra": -20.643,
+   "pmdec": 6.149,
+   "plx_mas": 1.2509
+  }
+ },
+ "si_assistance": "The cutouts and tables in this data_cache are REAL SPHEREx (NASA/IPAC IRSA) and JPL data, not SI-generated. They were fetched and processed by scripts written with SI assistance (Claude Code, Anthropic); see AI_USE.md."
+}

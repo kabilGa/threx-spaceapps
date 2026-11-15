@@ -1,3 +1,4 @@
+# Written with SI assistance (Claude Code, Anthropic); see AI_USE.md.
 """Image handling (alignment, masks, photometry, peak finding) on a tiny SYNTHETIC cutout.
 
 The synthetic image exists only inside this test (never saved, never shown in the app): it

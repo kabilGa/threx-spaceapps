@@ -1,3 +1,4 @@
+# Written with SI assistance (Claude Code, Anthropic); see AI_USE.md.
 """Smoke test: every page of the Streamlit app renders without an exception (offline:
 page 3 uses the cached data, never the network)."""
 import os

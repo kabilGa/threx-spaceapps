@@ -1,8 +1,9 @@
+# Written with SI assistance (Claude Code, Anthropic); see AI_USE.md.
 """Page 3 of the THREX app: real SPHEREx data.
 
 A. Schedule : when SPHEREx really looked at a sky position (IRSA SIA2), and what a
               hypothetical Planet X at that position would do on those exact dates.
-B. Blink    : aligned cutouts of that position shown as a short sequence (the "little video"
+B. Blink    : aligned cutouts of that position shown as a short sequence (the short animation
               asked for by the challenge), with flags and a difference image.
 C. Proof    : the same idea catching a KNOWN asteroid, checked against JPL.
 Live data when IRSA answers, cached data (with its date) otherwise. Never invented data.

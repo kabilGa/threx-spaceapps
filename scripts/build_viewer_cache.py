@@ -1,3 +1,4 @@
+# Written with SI assistance (Claude Code, Anthropic); see AI_USE.md.
 """Build the cached viewer data (cutouts of real SPHEREx exposures) for one challenge target.
 
   python scripts/build_viewer_cache.py Barnard [--half 150] [--workers 8] [--max-frames 60]

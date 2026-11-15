@@ -1,3 +1,4 @@
+# Written with SI assistance (Claude Code, Anthropic); see AI_USE.md.
 """All figures of the app and of the README (matplotlib, so the app and the saved PNGs match).
 
 Every figure has axis labels with units. Captions are returned by the app next to each figure.

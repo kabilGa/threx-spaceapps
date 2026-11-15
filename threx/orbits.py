@@ -1,3 +1,4 @@
+# Written with SI assistance (Claude Code, Anthropic); see AI_USE.md.
 """Two-body (Kepler) orbit of a body around the Sun.
 
 Plain words: an orbit is an ellipse fixed in space. Six numbers describe it:

@@ -1,3 +1,4 @@
+# Written with SI assistance (Claude Code, Anthropic); see AI_USE.md.
 """Physical constants and SPHEREx numbers used everywhere (each with its source)."""
 
 AU_KM = 149_597_870.7             # km, IAU 2012 definition of the astronomical unit

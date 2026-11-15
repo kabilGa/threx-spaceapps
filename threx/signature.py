@@ -1,3 +1,4 @@
+# Written with SI assistance (Claude Code, Anthropic); see AI_USE.md.
 """The "signature" of a distant body: how fast and how far it appears to move.
 
 Plain words: a body hundreds of AU away barely moves on its own orbit. What we see is mostly

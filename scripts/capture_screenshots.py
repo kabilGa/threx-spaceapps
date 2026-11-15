@@ -1,3 +1,4 @@
+# Written with SI assistance (Claude Code, Anthropic); see AI_USE.md.
 """Take real browser screenshots of the running app (needs: pip install playwright, and Google Chrome installed).
 
   python scripts/capture_screenshots.py

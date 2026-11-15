@@ -49,10 +49,10 @@ What we do not see: the catalogue proper motions of the targets are about 0 to 1
 
 2) Extra pages: what would a hypothetical Planet X look like? From a Kepler orbit (Brown and Batygin 2021 best fit, labelled hypothetical) and the motion of Earth we compute that a planet at 400 AU appears to move about 8 arcsec/day at opposition and shifts by about 1000 arcsec (about 160 SPHEREx pixels) in six months, mostly Earth's parallax, which also gives its distance. From reflected sunlight versus the published SPHEREx depth we find it could be seen only marginally (AB 19.4 to 21.5 depending on band for 3 Earth radii and albedo 0.4) and not at all with a methane-dark near-infrared albedo. Assumptions are labelled as such: one visit is 0.75 mag shallower than the four-pass depth, the albedo 0.03 scenario, and the demonstration values of the orbit angles Omega and omega. Our orbit code agrees with JPL Horizons to 0.4 arcsec for Sedna and Eris. Planet X is hypothetical and no detection is claimed.
 
-Everything is labelled measured, computed or assumed. The code has automated tests. To run it: pip install -r requirements.txt, then streamlit run app.py.
+Everything is labelled measured, computed or assumed. The code has automated tests. To run it: pip install -r requirements.txt, then streamlit run app.py. Code, documentation, charts and slides were created with SI assistance (Claude Code, Anthropic). Images and slides carry a visible SI label, and code, data and PDF metadata acknowledge it; see AI_USE.md in the repository.
 ```
 
-3287 characters.
+3509 characters.
 
 ## 6. NASA data used
 

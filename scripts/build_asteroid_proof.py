@@ -1,3 +1,4 @@
+# Written with SI assistance (Claude Code, Anthropic); see AI_USE.md.
 """Tier 2 D: catch a KNOWN asteroid in real SPHEREx pixels and check it against JPL.
 
 Steps (all with real services, nothing invented):

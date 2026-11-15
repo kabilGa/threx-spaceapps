@@ -1,3 +1,4 @@
+# Written with SI assistance (Claude Code, Anthropic); see AI_USE.md.
 """Download the JPL Horizons data used to validate our orbit code (section 6.6 of the brief).
 
 For Sedna (90377) and Eris (136199) we store:

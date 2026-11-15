@@ -1,3 +1,4 @@
+# Written with SI assistance (Claude Code, Anthropic); see AI_USE.md.
 """Reproduce the back-of-envelope numbers of the project brief (section 6.5).
 
 Run:  python scripts/sanity_checks.py

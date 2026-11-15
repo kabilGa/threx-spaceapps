@@ -1,3 +1,4 @@
+# Written with SI assistance (Claude Code, Anthropic); see AI_USE.md.
 """Could SPHEREx see it?  Compare the predicted magnitude with the SPHEREx depth.
 
 Published number (MEASURED by the mission, Bock et al. 2025 abstract): 5-sigma depth per

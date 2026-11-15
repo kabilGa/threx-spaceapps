@@ -1,3 +1,4 @@
+# Written with SI assistance (Claude Code, Anthropic); see AI_USE.md.
 """Check that every local link/image in the Markdown files points to an existing file. Run: python scripts/check_links.py"""
 import re
 import sys

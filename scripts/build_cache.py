@@ -1,3 +1,4 @@
+# Written with SI assistance (Claude Code, Anthropic); see AI_USE.md.
 """Fill data_cache/ with REAL data from IRSA so the app also works offline.
 
   python scripts/build_cache.py schedule                 # exposure lists for all preset positions

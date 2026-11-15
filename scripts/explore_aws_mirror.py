@@ -1,3 +1,4 @@
+# Written with SI assistance (Claude Code, Anthropic); see AI_USE.md.
 """Exploration helper: look at the IRSA cloud mirror of SPHEREx (public AWS bucket) without
 downloading whole files. Lists one planning period and reads only the FITS headers of one
 file with HTTP range requests.  (not used by the app)

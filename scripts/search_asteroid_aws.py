@@ -1,3 +1,4 @@
+# Written with SI assistance (Claude Code, Anthropic); see AI_USE.md.
 """Find SPHEREx exposures that contain a KNOWN asteroid (Horizons positions) on the AWS mirror.
 
   python scripts/search_asteroid_aws.py 6 2025-11-25 2025-12-07     # id, first day, last day (UTC)

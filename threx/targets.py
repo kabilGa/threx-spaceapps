@@ -1,3 +1,4 @@
+# Written with SI assistance (Claude Code, Anthropic); see AI_USE.md.
 """Preset sky positions for the real-data page. Each one says where its coordinates come from."""
 
 import json

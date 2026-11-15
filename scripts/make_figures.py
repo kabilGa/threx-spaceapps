@@ -1,3 +1,4 @@
+# Written with SI assistance (Claude Code, Anthropic); see AI_USE.md.
 """Save the Tier 1 figures as PNG files in screenshots/ (same code as the app).
 
 Run:  python scripts/make_figures.py

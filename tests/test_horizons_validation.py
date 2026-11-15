@@ -1,3 +1,4 @@
+# Written with SI assistance (Claude Code, Anthropic); see AI_USE.md.
 """Our Kepler + parallax code against JPL Horizons for Sedna and Eris.
 
 Offline test: uses tests/data/horizons_validation.json (REAL Horizons output, saved by

@@ -1,3 +1,4 @@
+# Written with SI assistance (Claude Code, Anthropic); see AI_USE.md.
 """Find the SPHEREx exposures that cover each challenge target, using the AWS mirror.
 
   python scripts/scan_targets.py            # all targets  -> data_cache/_work/hits_<slug>.json

@@ -1,3 +1,4 @@
+# Written with SI assistance (Claude Code, Anthropic); see AI_USE.md.
 """Measure what is (and is not) visible at the catalogue position of each target, and make the ready-made GIFs.
 
   python scripts/measure_targets.py

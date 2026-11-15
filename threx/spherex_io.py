@@ -1,3 +1,4 @@
+# Written with SI assistance (Claude Code, Anthropic); see AI_USE.md.
 """Real SPHEREx data from the NASA/IPAC Infrared Science Archive (IRSA).
 
 Docs followed:

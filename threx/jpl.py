@@ -1,3 +1,4 @@
+# Written with SI assistance (Claude Code, Anthropic); see AI_USE.md.
 """Small clients for NASA/JPL Solar System Dynamics services (no API key needed).
 
 Horizons    : https://ssd-api.jpl.nasa.gov/doc/horizons.html   (positions, orbital elements)

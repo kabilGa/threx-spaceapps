@@ -1,3 +1,4 @@
+# Written with SI assistance (Claude Code, Anthropic); see AI_USE.md.
 """Exploration helper: check the sb_ident call on a known asteroid (not used by the app)."""
 import sys
 from pathlib import Path

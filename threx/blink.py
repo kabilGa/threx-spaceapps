@@ -1,3 +1,4 @@
+# Written with SI assistance (Claude Code, Anthropic); see AI_USE.md.
 """Blink viewer data: a short, aligned sequence of real SPHEREx cutouts of one sky patch.
 
 A "bundle" is everything the viewer needs for one target:
@@ -145,7 +146,7 @@ def frame_label(info):
 
 
 def make_gif(bundle, indices=None, scale=4, duration_ms=600, markers=None):
-    """Animated GIF (bytes) of the frames: the 'little video' asked for by the challenge.
+    """Animated GIF (bytes) of the frames: the short animation asked for by the challenge.
     markers: optional list (one per frame) of (col, row) grid positions to circle."""
     from PIL import Image, ImageDraw
     idx = list(range(len(bundle["frames"]))) if indices is None else list(indices)

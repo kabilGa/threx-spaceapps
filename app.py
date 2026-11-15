@@ -1,3 +1,4 @@
+# Written with SI assistance (Claude Code, Anthropic); see AI_USE.md.
 """THREX - Streamlit app.   Run:  streamlit run app.py
 
 Pages: 1 SPHEREx sky viewer | 2 Planet X signature | 3 Can SPHEREx see it? | 4 About and honesty
@@ -306,6 +307,7 @@ def main():
         page_detectability()
     else:
         page_about()
+    st.caption("Created with SI assistance (Claude Code, Anthropic). See AI_USE.md.")
 
 
 main()

@@ -16,3 +16,7 @@ The Horizons data used by the tests is in `tests/data/horizons_validation.json`
 
 To rebuild everything from scratch, delete the files and run the commands above
 (needs a network connection; IRSA must be up).
+
+## SI acknowledgement
+
+All data here are REAL SPHEREx (NASA/IPAC IRSA) and JPL data, not SI-generated. They were fetched and processed by scripts written with SI assistance (Claude Code, Anthropic). The `.json` files carry an `si_assistance` field saying so. The `.npz`, `.csv` and `.gif` files cannot carry metadata, so it is stated here.

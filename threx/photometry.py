@@ -1,3 +1,4 @@
+# Written with SI assistance (Claude Code, Anthropic); see AI_USE.md.
 """How bright would the body be?  Reflected sunlight, plus a check on its own heat glow.
 
 Plain words: the planet has no light of its own at these wavelengths. It is a mirror ball

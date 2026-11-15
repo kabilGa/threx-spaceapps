@@ -1,3 +1,4 @@
+# Written with SI assistance (Claude Code, Anthropic); see AI_USE.md.
 """Check that every compiled library THREX needs can be loaded on this machine.
 
 Some Windows machines run an "Application Control" policy that blocks individual DLLs of

@@ -1,3 +1,4 @@
+# Written with SI assistance (Claude Code, Anthropic); see AI_USE.md.
 """Make slides/threx_deck.pdf (7 slides, English) from the project figures. Run: python scripts/make_deck.py"""
 import sys
 import textwrap
@@ -31,7 +32,8 @@ def slide(pdf, title, bullets, images=(), wrap=None, foot="THREX · NASA Space A
         ax = fig.add_axes(box)
         ax.imshow(mpimg.imread(path) if isinstance(path, (str, Path)) else path)
         ax.axis("off")
-    fig.text(0.05, 0.03, foot, fontsize=10, color=MUTED)
+    fig.text(0.05, 0.04, foot, fontsize=10, color=MUTED)
+    fig.text(0.05, 0.015, "Created with SI assistance (Claude Code, Anthropic)", fontsize=10, color=INK)
     pdf.savefig(fig)
     plt.close(fig)
 
@@ -46,7 +48,8 @@ meas = {q: (f["meas_east_arcsec"], f["meas_north_arcsec"]) for q, f in enumerate
 plots.fig_pair(a, 0, 9, pred, meas).savefig(tmp / "deck_asteroid.png", dpi=110)
 d = pr["displacement"]
 S = R / "screenshots"
-with PdfPages(R / "slides" / "threx_deck.pdf") as pdf:
+SI = "Created with SI assistance (Claude Code, Anthropic); see AI_USE.md at https://github.com/kabilGa/threx-spaceapps"
+with PdfPages(R / "slides" / "threx_deck.pdf", metadata={"Title": "THREX deck", "Author": SI, "Subject": SI, "Keywords": SI}) as pdf:
     slide(pdf, "THREX: see how the sky changes in SPHEREx images",
           ["A web viewer for real SPHEREx images, plus a prediction of what a hypothetical Planet X would look like to SPHEREx.",
            "NASA Space Apps Challenge 2026: Planet X and SPHEREx", "Team: Kabil Gannouni (Tunisia)",
@@ -61,7 +64,7 @@ with PdfPages(R / "slides" / "threx_deck.pdf") as pdf:
     slide(pdf, "2 · Proof on a known asteroid",
           [f"6 Hebe, predicted by JPL Horizons. Two groups of frames {d['dt_hours']:.1f} h apart.",
            f"Measured displacement {d['measured_arcsec']:.0f} arcsec; predicted {d['predicted_arcsec']:.0f} arcsec.",
-           "JPL sb_ident lists 6 Hebe in the field. Hebe saturates: only its positions are meaningful. Already known: nothing discovered."], [(tmp / "deck_asteroid.png", [0.03, 0.04, 0.94, 0.42])], wrap=100)
+           "JPL sb_ident lists 6 Hebe in the field. Hebe saturates: only its positions are meaningful. Already known: nothing discovered."], [(tmp / "deck_asteroid.png", [0.03, 0.09, 0.94, 0.40])], wrap=100)
     slide(pdf, "3 · What would Planet X look like?",
           ["A planet at 400 AU shifts by about 1000 arcsec (160 pixels) in six months, mostly Earth's parallax.",
            "Shift = distance measurement: d ≈ B⊥ / θ.", "Orbit code agrees with JPL Horizons to 0.4 arcsec (Sedna, Eris)."],

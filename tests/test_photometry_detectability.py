@@ -1,3 +1,4 @@
+# Written with SI assistance (Claude Code, Anthropic); see AI_USE.md.
 """Brightness formula and detectability logic."""
 import numpy as np
 import pytest

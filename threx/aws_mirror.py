@@ -1,3 +1,4 @@
+# Written with SI assistance (Claude Code, Anthropic); see AI_USE.md.
 """Find and read SPHEREx exposures on the public IRSA cloud mirror (AWS bucket nasa-irsa-spherex).
 
 Used when IRSA's SIA2/TAP search is down. The bucket has NO search by sky position, so we

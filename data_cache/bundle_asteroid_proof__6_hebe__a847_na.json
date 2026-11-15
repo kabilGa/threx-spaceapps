@@ -401,5 +401,6 @@
    ],
    "n": 5
   }
- }
+ },
+ "si_assistance": "The cutouts and tables in this data_cache are REAL SPHEREx (NASA/IPAC IRSA) and JPL data, not SI-generated. They were fetched and processed by scripts written with SI assistance (Claude Code, Anthropic); see AI_USE.md."
 }

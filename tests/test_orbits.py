@@ -1,3 +1,4 @@
+# Written with SI assistance (Claude Code, Anthropic); see AI_USE.md.
 """Kepler solver and orbit geometry."""
 import numpy as np
 import pytest

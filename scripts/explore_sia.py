@@ -1,3 +1,4 @@
+# Written with SI assistance (Claude Code, Anthropic); see AI_USE.md.
 """Exploration helper: what does IRSA return for one sky position?  (not used by the app)
 
 Run:  python scripts/explore_sia.py 60 20
