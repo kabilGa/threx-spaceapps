@@ -1,0 +1,12 @@
+{
+ "name": "RW Aurigae",
+ "ra_deg": 76.95658657557826,
+ "dec_deg": 30.401291346111112,
+ "queried_utc": "2026-11-15T16:33:48+00:00",
+ "rows": 66,
+ "collections": [
+  "spherex_dr1",
+  "spherex_qr3"
+ ],
+ "source": "IRSA SIA2, https://irsa.ipac.caltech.edu/SIA"
+}

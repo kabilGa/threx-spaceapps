@@ -1,0 +1,12 @@
+{
+ "name": "WISE 0855-0714",
+ "ra_deg": 133.75976461144327,
+ "dec_deg": -7.242186,
+ "queried_utc": "2026-11-15T17:00:15+00:00",
+ "rows": 69,
+ "collections": [
+  "spherex_dr1",
+  "spherex_qr3"
+ ],
+ "source": "IRSA SIA2, https://irsa.ipac.caltech.edu/SIA"
+}

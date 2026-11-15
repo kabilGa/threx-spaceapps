@@ -1,0 +1,3 @@
+# Use of AI
+
+Yes, AI tools were used. The team member (Kabil Gannouni) chose the challenge and approved the project concept, which was developed with Claude (Anthropic) in a chat. Claude Code (Anthropic's coding agent) wrote the Python code, the automated tests, the Streamlit app and the first drafts of the documentation and slides, and it queried and processed the public NASA/IPAC SPHEREx and JPL data described in this submission. The team member directed the work and is responsible for all content. All data shown are real SPHEREx and JPL data; synthetic images exist only inside automated tests and are labelled as such.

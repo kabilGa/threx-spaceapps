@@ -1,0 +1,12 @@
+{
+ "name": "Barnard's Star",
+ "ra_deg": 269.4462685026598,
+ "dec_deg": 4.768204478798888,
+ "queried_utc": "2026-11-15T16:55:55+00:00",
+ "rows": 68,
+ "collections": [
+  "spherex_dr1",
+  "spherex_qr3"
+ ],
+ "source": "IRSA SIA2, https://irsa.ipac.caltech.edu/SIA"
+}

@@ -1,0 +1,4 @@
+# Extra packages only needed to rebuild data_cache (scripts/build_*.py), not to run the app
+-r requirements.txt
+fsspec==2026.9.0
+aiohttp==3.14.5

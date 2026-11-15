@@ -1,0 +1,12 @@
+{
+ "name": "Epsilon Indi B",
+ "ra_deg": 331.09664385226796,
+ "dec_deg": -56.80066020400499,
+ "queried_utc": "2026-11-15T16:39:08+00:00",
+ "rows": 69,
+ "collections": [
+  "spherex_dr1",
+  "spherex_qr3"
+ ],
+ "source": "IRSA SIA2, https://irsa.ipac.caltech.edu/SIA"
+}

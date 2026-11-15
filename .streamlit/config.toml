@@ -1,0 +1,10 @@
+# Light theme so the page matches the (light) figures on every machine.
+[theme]
+base = "light"
+primaryColor = "#2a78d6"
+backgroundColor = "#fcfcfb"
+secondaryBackgroundColor = "#f1f0ec"
+textColor = "#0b0b0b"
+
+[browser]
+gatherUsageStats = false

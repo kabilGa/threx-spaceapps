@@ -1,0 +1,12 @@
+{
+ "name": "Asteroid proof: 6 Hebe (A847 NA)",
+ "ra_deg": 345.788412245,
+ "dec_deg": -20.737674366500002,
+ "queried_utc": "2026-11-15T16:15:00+00:00",
+ "rows": 215,
+ "collections": [
+  "spherex_dr1",
+  "spherex_qr3"
+ ],
+ "source": "IRSA SIA2, https://irsa.ipac.caltech.edu/SIA"
+}

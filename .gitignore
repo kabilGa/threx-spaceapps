@@ -1,0 +1,12 @@
+.venv/
+.venv-clean/
+__pycache__/
+*.pyc
+.pytest_cache/
+.streamlit/secrets.toml
+.ipynb_checkpoints/
+*.egg-info/
+data_cache/_work/
+.claude/
+launch.json
+*.log

@@ -1,0 +1,12 @@
+{
+ "name": "R Draconis",
+ "ra_deg": 248.16723307280128,
+ "dec_deg": 66.75502382666444,
+ "queried_utc": "2026-11-15T17:05:37+00:00",
+ "rows": 61,
+ "collections": [
+  "spherex_dr1",
+  "spherex_qr3"
+ ],
+ "source": "IRSA SIA2, https://irsa.ipac.caltech.edu/SIA"
+}
